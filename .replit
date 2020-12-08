@@ -1,0 +1,2 @@
+language = "java10"
+run = "javac -d bin src/SquirrelDemo/*.java; java -cp bin SquirrelDemo.SquirrelMain"
