@@ -16,14 +16,14 @@ public class DefineSquirrel{
   }
 
   public void movement(String strMovement){
-    System.out.println("The squirrel is " + strMovement);
+    System.out.println(this.squirrel + " is " + strMovement);
   }
 
   public void eating(String strFood){
-    System.out.println("The squirrel is eating " + strFood);
+    System.out.println(this.squirrel + " is eating " + strFood);
   }
 
   public void defend(String strHome){
-    System.out.println("The squirrel is defending " + strHome);
+    System.out.println(this.squirrel + " is defending " + strHome);
   }
 }
